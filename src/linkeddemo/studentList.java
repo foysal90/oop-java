@@ -17,6 +17,7 @@ public class studentList{
 
         for (student s : list){
             System.out.println("Name  : " + s.name + ", Grade : " +s.grade + ", Address : " + s.address + ", Age : " + s.age + ", ID : " + s.id);
+
         }
 
 
