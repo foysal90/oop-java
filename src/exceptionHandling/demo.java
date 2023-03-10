@@ -3,11 +3,19 @@ package exceptionHandling;
 public class demo {
     public static void main(String[] args) {
 
-        int x = 5;
-        int y = 6;
-        int z = x + y;
+        try {
+            int x = 10;
+            int y = 0;
+            int z = x / y;
+            System.out.println(z);
+        } catch (ArithmeticException e){
+            System.out.println(e);
+        }
 
-        System.out.println(z);
+        System.out.println("can i get printed ?????");
+
+
+
 
 
 
