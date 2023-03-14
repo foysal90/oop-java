@@ -6,7 +6,7 @@ public class reverseString {
         String country = "Bangladesh";
         String rev = "";
 
-        for (int i = country.length()-1; i >=0 ; i--) {
+        for (int i = country.length()-1; i >=0 ; i--) {    //initial length of country is 3 after -1
             rev += country.charAt(i);
 
         }
