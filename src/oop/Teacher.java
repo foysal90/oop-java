@@ -1,5 +1,7 @@
 package oop;
 
+
+
 import java.util.Scanner;
 
 public class Teacher {
@@ -23,6 +25,8 @@ public class Teacher {
         masum.age = 34;
         masum.phone = 321659847;
         masum.display();
+
+
 
 
 
