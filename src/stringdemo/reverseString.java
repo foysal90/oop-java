@@ -5,8 +5,9 @@ public class reverseString {
         // reverse a string without reverse()
         String country = "Bangladesh";
         String rev = "";
+        System.out.println(country.length());
 
-        for (int i = country.length()-1; i >=0 ; i--) {    //initial length of country is 3 after -1
+        for (int i = country.length()-1; i >=0 ; i--) {    //initial length of country is 9 after -1
             rev += country.charAt(i);
 
         }

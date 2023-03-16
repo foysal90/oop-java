@@ -27,6 +27,7 @@ public class amazonTest {
         else {
             System.out.println("Login Failed");
         }
+        driver.quit();
 
     }
 }
